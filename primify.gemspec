@@ -6,8 +6,8 @@ require 'primify/version'
 Gem::Specification.new do |spec|
   spec.name          = "primify"
   spec.version       = Primify::VERSION
-  spec.authors       = ["="]
-  spec.email         = ["=z"]
+  spec.authors       = ["Waqar Hassan"]
+  spec.email         = ["whassan25@gmail.com"]
 
   spec.summary       = %q{A Simple Prime Number Generator}
   spec.description   = %q{It generates first n Prime numbers using naive brute force approach.}
