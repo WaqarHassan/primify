@@ -1,8 +1,6 @@
 # Primify
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/primify`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to primify! This a prime number generator which will help you generate first n prime numbers. You just have to call generate method of Prime class and pass it an number and it will generate and return Prime numbers
 
 ## Installation
 
