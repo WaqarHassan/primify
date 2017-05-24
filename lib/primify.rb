@@ -1,6 +1,7 @@
 require "primify/version"
+# require 'engtagger'
 
-module Primify
+# module Primify
   class Prime 
   	def generate count
       arr = []
@@ -23,7 +24,7 @@ module Primify
   	end
   end
   
-end
+# end
 
 
 

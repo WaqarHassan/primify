@@ -9,11 +9,11 @@ describe Primify do
   #   expect(false).to eq(true)
   # end
   subject {Prime.new}
-  describe '#generate' do
+  describe 'Prime#generate' do
   	let (:input) { 10 }
   	let (:output ) { subject.generate(input) }
 
-  	it "contains 5" do
+  	it "contains 7 within first 10 numbers" do
   		expect(output).to include(7)
   	end
   end
