@@ -2,7 +2,7 @@ require "primify/version"
 # require 'engtagger'
 
 # module Primify
-  class Prime 
+  class PrimeGenerator
   	def generate count
       arr = []
   		number = 2
@@ -14,7 +14,7 @@ require "primify/version"
           j +=  1
         end
         if j == number
-          puts number
+          # puts number
           arr << number
           primes_count += 1
         end
